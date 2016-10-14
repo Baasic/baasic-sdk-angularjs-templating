@@ -1,0 +1,33 @@
+{
+  "name": "baasic-angularjs-templating",
+  "version": "0.9.0",
+  "description": "Baasic AngularJS SDK templating modules and services.",
+  "keywords": [
+    "angularjs",
+    "baasic",
+	"templating",
+    "backend"
+  ],
+  "license": "MIT",
+  "main": "dist/baasic-angular-templating.js",
+  "ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests",
+        "src",
+        "spec",
+		"NuGet",
+		"lib",
+        "bower.json",
+        "gulpfile.js",
+        "package.json",
+        "README.md"
+    ],
+  "devDependencies": {
+  },
+  "dependencies": {
+	  "baasic-angularjs-core": "baasic/baasic-sdk-angularjs-core"
+  }
+}
