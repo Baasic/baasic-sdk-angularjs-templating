@@ -22,7 +22,7 @@ baasicTemplatingRouteService.find.expand(
 	{searchQuery: '<search-phrase>'}
 );               
                 **/
-                find: uriTemplateService.parse('templates/{?searchQuery,page,rpp,sort,embed,fields}'),
+                find: uriTemplateService.parse('templates/{?searchQuery,page,rpp,sort,embed,fields,moduleNames}'),
                 /**
                 * Parses get route which must be expanded with the Id of the previously created template resource in the system.
                 * @method        
